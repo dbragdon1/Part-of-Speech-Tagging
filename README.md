@@ -4,13 +4,21 @@ Part of Speech Tagging on Gene Sequences using the Viterbi Algorithm
 Files:
 
 gene.TRAIN: Train file rewritten to include informative word classes
+
 gene2.TRAIN: Train file used as reference to preserve original words after rewriting gene.TRAIN
+
 gene.COUNTS: File used to store original counts without informative word classes
+
 geneIWC.COUNTS: File used to store counts with informative word classes
+
 gene_dev.p1.OUT: File used to output predictions on dev set from baseline tagger
+
 gene_dev.p2.OUT: File used to output predictions on dev set from Trigram HMM
+
 gene_train.p1.OUT: File used to output predictions on train set from baseline tagger
+
 gene_train.p2.OUT: File used to output predictions on train set from Trigram HMM
+
 geneunlabeled.TRAIN: Words from gene.TRAIN with labels removed. Used when predicting on test set
 
 updatecounts.py:
